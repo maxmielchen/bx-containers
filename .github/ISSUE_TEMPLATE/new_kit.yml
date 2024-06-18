@@ -1,5 +1,5 @@
 name: New kit
-title: "[Kit] <kit_name>"
+title: "[Kit] KIT_NAME"
 description: Request for a new kit with a specific installations and configurations
 labels: enhancement
 body:
@@ -21,7 +21,7 @@ body:
     validations:
       required: false
 
-  - type: input
+  - type: textarea
     id: kit_installations
     attributes:
       label: Kit installations
@@ -30,7 +30,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: kit_configurations
     attributes:
       label: Kit configurations
@@ -39,7 +39,7 @@ body:
     validations:
       required: false
 
-  - type: input
+  - type: textarea
     id: kit_notes
     attributes:
       label: Kit notes
