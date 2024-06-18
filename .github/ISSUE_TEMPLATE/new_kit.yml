@@ -1,4 +1,5 @@
 name: New kit
+title: "[Kit] <kit_name>"
 description: Request for a new kit with a specific installations and configurations
 labels: enhancement
 body:
