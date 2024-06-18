@@ -1,0 +1,48 @@
+name: New kit
+description: Request for a new kit with a specific installations and configurations
+labels: enhancement
+body:
+  - type: input
+    id: kit_name
+    attributes:
+      label: Kit name
+      description: Name of the kit
+      placeholder: Enter the name of the kit like (Python, Java, Rust, etc.)
+    validations:
+      required: true
+
+  - type: input
+    id: kit_description
+    attributes:
+      label: Kit description
+      description: Description of the kit
+      placeholder: Enter the description of the kit like for what use case it is used
+    validations:
+      required: false
+
+  - type: input
+    id: kit_installations
+    attributes:
+      label: Kit installations
+      description: List of installations required for the kit
+      placeholder: Enter the installations required for the kit
+    validations:
+      required: true
+
+  - type: input
+    id: kit_configurations
+    attributes:
+      label: Kit configurations
+      description: List of configurations for the kit like environment variables, etc.
+      placeholder: Enter descriptions of configurations for the kit
+    validations:
+      required: false
+
+  - type: input
+    id: kit_notes
+    attributes:
+      label: Kit notes
+      description: Any additional notes for the kit
+      placeholder: Enter any additional notes for the kit
+    validations:
+      required: false
