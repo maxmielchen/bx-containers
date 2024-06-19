@@ -5,3 +5,4 @@ RUN echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft
 RUN dnf check-update
 RUN dnf install -y code
 RUN dnf install -y chromium
+RUN dnf install -y gnome-keyring
